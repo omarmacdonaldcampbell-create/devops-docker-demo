@@ -9,3 +9,7 @@ docker compose up --build
 
 ## Stop
 docker compose down
+
+## Test
+curl http://localhost:8000 && echo
+curl http://localhost:8000/health && echo
